@@ -1,0 +1,13 @@
+:root {
+  --background: #f4f1ea;
+  --background-alt: #ebe7dc;
+  --card-bg: #fbfaf6;
+  --text: #1b1a17;
+  --text-soft: #46443e;
+  --text-muted: #807b70;
+  --border: #d8d4c8;
+  --accent: #2a3be0;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Hanken Grotesque", Arial, sans-serif;
+}

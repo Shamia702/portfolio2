@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talkify — CSS Frameworks · Shamia</title>
+    <meta
+      name="description"
+      content="Talkify: a social media application built with Bootstrap 5 and the Noroff Social API."
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Hanken+Grotesque:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap nav">
+        <a class="brand" href="index.html">Shamia<span class="dot">.</span></a>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="main">
+      <article class="wrap">
+        <div class="article-top">
+          <a class="back-link" href="index.html#work">&larr; All work</a>
+        </div>
+
+        <header class="article-header">
+          <p class="kicker">CSS Frameworks · Bootstrap 5</p>
+          <div class="title-row">
+            <h1 class="article-title">Talkify</h1>
+            <button
+              class="share-btn"
+              type="button"
+              aria-label="Copy link to this project"
+            >
+              <span class="share-label">Share / Copy link</span>
+            </button>
+          </div>
+        </header>
+
+        <figure class="article-figure">
+          <div class="frame">
+            <img
+              src="images/talkify.jpg"
+              alt="The Talkify social feed showing posts and a Bootstrap-based layout"
+              width="986"
+              height="848"
+            />
+          </div>
+          <figcaption>
+            Talkify - the main social feed built with Bootstrap 5 components.
+          </figcaption>
+        </figure>
+
+        <div class="article-links">
+          <a
+            class="ext-link primary"
+            href="https://talkify-webapp.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View live site ↗</a
+          >
+          <a
+            class="ext-link"
+            href="https://github.com/Shamia702/social-media-app#readme"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub README ↗</a
+          >
+        </div>
+
+        <div class="article-body">
+          <div class="prose">
+            <p class="lead">
+              Talkify is a social media application built with Bootstrap 5 for
+              the CSS Frameworks course. It lets users register, log in, manage
+              their profile, and create, read, update and delete posts powered
+              by the Noroff Social API.
+            </p>
+
+            <h2>The brief</h2>
+            <p>
+              The course asked for a working social platform built on top of a
+              CSS framework rather than custom styling from scratch. The goal
+              was to show that I can use a component library to build a
+              consistent, responsive interface quickly, while still wiring up
+              real functionality against an API.
+            </p>
+
+            <h2>How it works</h2>
+            <p>
+              Users authenticate with their Noroff account to register and log
+              in. Once signed in, they can view a feed of posts, open individual
+              posts, follow and unfollow other users, and comment. Post
+              management is full CRUD, users can create new posts, edit their
+              own, and delete them. The interface is built from Bootstrap's grid
+              and components so it stays responsive across screen sizes.
+            </p>
+
+            <h2>Main features</h2>
+            <ul>
+              <li>
+                <strong>Authentication</strong>: register, log in and log out
+                using the Noroff Social API.
+              </li>
+              <li>
+                <strong>Profiles</strong>: view profiles, with follow and
+                unfollow.
+              </li>
+              <li>
+                <strong>Posts</strong>: full create, read, update and delete.
+              </li>
+              <li><strong>Comments</strong>: comment on posts in the feed.</li>
+              <li>
+                <strong>Responsive UI</strong>: built with the Bootstrap grid
+                and components.
+              </li>
+            </ul>
+          </div>
+
+          <aside class="aside" aria-label="Project details">
+            <dl>
+              <div>
+                <dt>Course</dt>
+                <dd>CSS Frameworks</dd>
+              </div>
+              <div>
+                <dt>Year</dt>
+                <dd>2025</dd>
+              </div>
+              <div>
+                <dt>Stack</dt>
+                <dd>
+                  <div class="tag-row">
+                    <span class="chip">Bootstrap 5</span>
+                    <span class="chip">JavaScript</span>
+                    <span class="chip">Noroff Social API</span>
+                  </div>
+                </dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-base footer-base-simple">
+          <span>© 2026 Shamia.</span>
+          <span
+            ><a href="index.html" class="footer-home-link"
+              >Back to home</a
+            ></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

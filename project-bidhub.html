@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BidHub — Semester Project 2 · Shamia</title>
+    <meta
+      name="description"
+      content="BidHub: a student auction house built with Bootstrap 5 and SCSS, using the Noroff Auction API."
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Hanken+Grotesque:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap nav">
+        <a class="brand" href="index.html">Shamia<span class="dot">.</span></a>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="main">
+      <article class="wrap">
+        <div class="article-top">
+          <a class="back-link" href="index.html#work">&larr; All work</a>
+        </div>
+
+        <header class="article-header">
+          <p class="kicker">Semester Project 2 · Bootstrap &amp; SCSS</p>
+          <div class="title-row">
+            <h1 class="article-title">BidHub</h1>
+            <button
+              class="share-btn"
+              type="button"
+              aria-label="Copy link to this project"
+            >
+              <span class="share-label">Share / Copy link</span>
+            </button>
+          </div>
+        </header>
+
+        <figure class="article-figure">
+          <div class="frame">
+            <img
+              src="images/bidhub.jpg"
+              alt="The BidHub landing page showing the headline and a featured auction with its current bid"
+              width="1132"
+              height="630"
+            />
+          </div>
+          <figcaption>
+            BidHub — the landing page with a featured auction showing the
+            current bid and countdown.
+          </figcaption>
+        </figure>
+
+        <div class="article-links">
+          <a
+            class="ext-link primary"
+            href="https://bidhub-site.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View live site ↗</a
+          >
+          <a
+            class="ext-link"
+            href="https://github.com/Shamia702/SP2-BidHub#readme"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub README ↗</a
+          >
+        </div>
+
+        <div class="article-body">
+          <div class="prose">
+            <p class="lead">
+              BidHub is a student-only auction house built for the Noroff
+              Auction API as my Semester Project 2. Users register with their
+              Noroff student email, create listings, and place bids using
+              credits instead of real money.
+            </p>
+
+            <h2>The brief</h2>
+            <p>
+              The exam asked for a complete auction platform where users can
+              list items and bid on each other's listings. The goal was to build
+              a full application with authentication, profiles, and a working
+              bidding system on top of a real API, and to handle the different
+              states between logged-out and logged-in users.
+            </p>
+
+            <h2>How it works</h2>
+            <p>
+              Logged-out visitors can browse the landing page, view all
+              auctions, search listings, and open a single listing to see its
+              details, but they must log in to bid. Once registered with a
+              Noroff student email, users get credits shown in the header, a
+              full profile, and the ability to create, edit and delete their own
+              listings and place bids on others.
+            </p>
+
+            <h2>Main features</h2>
+            <ul>
+              <li>
+                <strong>Authentication</strong>: register and log in with a
+                Noroff student email.
+              </li>
+              <li>
+                <strong>Credits</strong>: each user has credits, shown in the
+                header on every page.
+              </li>
+              <li>
+                <strong>Listings</strong>: create, edit and delete listings
+                (owner only).
+              </li>
+              <li>
+                <strong>Bidding</strong>: place bids, with validation so bids
+                must beat the current highest.
+              </li>
+              <li>
+                <strong>Profiles</strong>: avatar, banner, bio, credits and
+                stats, plus "My listings" and "My bids" pages.
+              </li>
+              <li>
+                <strong>Search &amp; countdown</strong>: search listings and see
+                live time remaining on each auction.
+              </li>
+            </ul>
+          </div>
+
+          <aside class="aside" aria-label="Project details">
+            <dl>
+              <div>
+                <dt>Course</dt>
+                <dd>Semester Project 2</dd>
+              </div>
+              <div>
+                <dt>Year</dt>
+                <dd>2025</dd>
+              </div>
+              <div>
+                <dt>Stack</dt>
+                <dd>
+                  <div class="tag-row">
+                    <span class="chip">Bootstrap 5</span>
+                    <span class="chip">SCSS</span>
+                    <span class="chip">JavaScript</span>
+                    <span class="chip">Noroff Auction API</span>
+                  </div>
+                </dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-base footer-base-simple">
+          <span>© 2026 Shamia.</span>
+          <span
+            ><a href="index.html" class="footer-home-link"
+              >Back to home</a
+            ></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

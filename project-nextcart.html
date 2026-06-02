@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NextCart — JavaScript Frameworks · Shamia</title>
+    <meta
+      name="description"
+      content="NextCart: an online shop built with Next.js, React and TypeScript, using the Noroff Online Shop API."
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Hanken+Grotesque:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap nav">
+        <a class="brand" href="index.html">Shamia<span class="dot">.</span></a>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="main">
+      <article class="wrap">
+        <div class="article-top">
+          <a class="back-link" href="index.html#work">&larr; All work</a>
+        </div>
+
+        <header class="article-header">
+          <p class="kicker">JavaScript Frameworks · React</p>
+          <div class="title-row">
+            <h1 class="article-title">NextCart</h1>
+            <button
+              class="share-btn"
+              type="button"
+              aria-label="Copy link to this project"
+            >
+              <span class="share-label">Share / Copy link</span>
+            </button>
+          </div>
+        </header>
+
+        <figure class="article-figure">
+          <div class="frame">
+            <img
+              src="images/nextcart.jpg"
+              alt="The NextCart shop showing a product grid with prices and discount badges"
+              width="1141"
+              height="741"
+            />
+          </div>
+          <figcaption>
+            NextCart - the product listing page with search and discounted
+            prices.
+          </figcaption>
+        </figure>
+
+        <div class="article-links">
+          <a
+            class="ext-link primary"
+            href="https://jsfw-2025-v1-shamia-s-javascript-fr.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >View live site ↗</a
+          >
+          <a
+            class="ext-link"
+            href="https://github.com/NoroffFEU/jsfw-2025-v1-shamia-s-javascript-frameworks-ca#readme"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub README ↗</a
+          >
+        </div>
+
+        <div class="article-body">
+          <div class="prose">
+            <p class="lead">
+              NextCart is an online shop built with Next.js, React and
+              TypeScript for the JavaScript Frameworks course. It takes a
+              shopper from browsing products all the way through to a checkout
+              success page, using the Noroff Online Shop API for product data.
+            </p>
+
+            <h2>The brief</h2>
+            <p>
+              The course asked for a working e-commerce application built with a
+              modern JavaScript framework. The goal was to demonstrate
+              component-based architecture, state management for the cart, and a
+              complete user journey rather than a static page.
+            </p>
+
+            <h2>How it works</h2>
+            <p>
+              Products are fetched from the Noroff Online Shop API and displayed
+              in a responsive grid. Users can search for products, open a
+              product page to see full details, and add items to the cart. The
+              cart keeps track of the items and totals, and the checkout flow
+              ends on a confirmation page. There is also a contact form with
+              validation.
+            </p>
+
+            <h2>Main features</h2>
+            <ul>
+              <li>
+                <strong>Product listing</strong>: products loaded from the API
+                in a responsive grid.
+              </li>
+              <li><strong>Search</strong>: filter products by name.</li>
+              <li>
+                <strong>Product details</strong>: individual product pages with
+                full information.
+              </li>
+              <li>
+                <strong>Shopping cart</strong>: add items and see the total.
+              </li>
+              <li>
+                <strong>Checkout</strong>: checkout flow ending on a success
+                page.
+              </li>
+              <li><strong>Contact form</strong>: with form validation.</li>
+            </ul>
+          </div>
+
+          <aside class="aside" aria-label="Project details">
+            <dl>
+              <div>
+                <dt>Course</dt>
+                <dd>JavaScript Frameworks</dd>
+              </div>
+              <div>
+                <dt>Year</dt>
+                <dd>2025</dd>
+              </div>
+              <div>
+                <dt>Stack</dt>
+                <dd>
+                  <div class="tag-row">
+                    <span class="chip">Next.js</span>
+                    <span class="chip">React</span>
+                    <span class="chip">TypeScript</span>
+                    <span class="chip">Tailwind CSS</span>
+                  </div>
+                </dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-base footer-base-simple">
+          <span>© 2026 Shamia.</span>
+          <span
+            ><a href="index.html" class="footer-home-link"
+              >Back to home</a
+            ></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
