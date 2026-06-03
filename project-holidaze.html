@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BidHub - Semester Project 2 · Shamia</title>
+    <title>Holidaze - Exam Project · Shamia</title>
     <meta
       name="description"
-      content="BidHub: a student auction house built with Bootstrap 5 and SCSS, using the Noroff Auction API."
+      content="Holidaze: an accommodation booking application built with React, Vite and Tailwind CSS, using the Noroff Holidaze API."
     />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Hanken+Grotesque:wght@400;500;600;700&display=swap"
@@ -15,7 +16,6 @@
     />
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="images/favicon.ico" />
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -45,9 +45,9 @@
         </div>
 
         <header class="article-header">
-          <p class="kicker">Semester Project 2 · Bootstrap &amp; SCSS</p>
+          <p class="kicker">Exam Project · React</p>
           <div class="title-row">
-            <h1 class="article-title">BidHub</h1>
+            <h1 class="article-title">Holidaze</h1>
             <button
               class="share-btn"
               type="button"
@@ -61,29 +61,28 @@
         <figure class="article-figure">
           <div class="frame">
             <img
-              src="images/bidhub.jpg"
-              alt="The BidHub landing page showing the headline and a featured auction with its current bid"
-              width="1132"
-              height="630"
+              src="images/holidaze.jpg"
+              alt="The Holidaze venue browse page showing a search bar and venue cards"
+              width="1182"
+              height="843"
             />
           </div>
           <figcaption>
-            BidHub — the landing page with a featured auction showing the
-            current bid and countdown.
+            Holidaze - the venue browse page with search and venue cards.
           </figcaption>
         </figure>
 
         <div class="article-links">
           <a
             class="ext-link primary"
-            href="https://bidhub-site.netlify.app/"
+            href="https://holidaze-booking-app.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
             >View live site ↗</a
           >
           <a
             class="ext-link"
-            href="https://github.com/Shamia702/SP2-BidHub#readme"
+            href="https://github.com/Shamia702/holidaze-booking-pe2#readme"
             target="_blank"
             rel="noopener noreferrer"
             >GitHub README ↗</a
@@ -93,56 +92,56 @@
         <div class="article-body">
           <div class="prose">
             <p class="lead">
-              BidHub is a student-only auction house built for the Noroff
-              Auction API as my Semester Project 2. Users register with their
-              Noroff student email, create listings, and place bids using
-              credits instead of real money.
+              Holidaze is an accommodation booking application built with React
+              for my exam project. It has two sides: customers can search and
+              book venues, while venue managers can list and manage their own
+              properties, all powered by the Noroff Holidaze API.
             </p>
 
             <h2>The brief</h2>
             <p>
-              The exam asked for a complete auction platform where users can
-              list items and bid on each other's listings. The goal was to build
-              a full application with authentication, profiles, and a working
-              bidding system on top of a real API, and to handle the different
-              states between logged-out and logged-in users.
+              The exam asked for a complete booking platform that serves two
+              different types of users from the same app. The goal was to build
+              a real, responsive application with authentication, a booking
+              system, and a management dashboard, while keeping the customer
+              experience and the manager experience clearly separated.
             </p>
 
             <h2>How it works</h2>
             <p>
-              Logged-out visitors can browse the landing page, view all
-              auctions, search listings, and open a single listing to see its
-              details, but they must log in to bid. Once registered with a
-              Noroff student email, users get credits shown in the header, a
-              full profile, and the ability to create, edit and delete their own
-              listings and place bids on others.
+              Anyone can browse venues, search by name, and open a single venue
+              page to see its details, images and availability calendar.
+              Registered customers can book a venue for selected dates and view
+              or cancel their bookings. Registered venue managers get a
+              dashboard where they can create, edit and delete their own venues
+              and see the bookings made on them.
             </p>
 
             <h2>Main features</h2>
             <ul>
               <li>
-                <strong>Authentication</strong>: register and log in with a
-                Noroff student email.
+                <strong>Venue browsing</strong>: search venues with a responsive
+                grid and pagination.
               </li>
               <li>
-                <strong>Credits</strong>: each user has credits, shown in the
-                header on every page.
+                <strong>Single venue pages</strong>: details, images and an
+                availability calendar.
               </li>
               <li>
-                <strong>Listings</strong>: create, edit and delete listings
-                (owner only).
+                <strong>Customer bookings</strong>: book venues for chosen
+                dates, and view or cancel bookings.
               </li>
               <li>
-                <strong>Bidding</strong>: place bids, with validation so bids
-                must beat the current highest.
+                <strong>Manager dashboard</strong>: create, edit and delete
+                venues (owner only).
               </li>
               <li>
-                <strong>Profiles</strong>: avatar, banner, bio, credits and
-                stats, plus "My listings" and "My bids" pages.
+                <strong>Authentication</strong>: register and log in as either a
+                customer or a venue manager.
               </li>
               <li>
-                <strong>Search &amp; countdown</strong>: search listings and see
-                live time remaining on each auction.
+                <strong>Responsive design</strong>: works across mobile, tablet
+                and desktop.
               </li>
             </ul>
           </div>
@@ -151,20 +150,20 @@
             <dl>
               <div>
                 <dt>Course</dt>
-                <dd>Semester Project 2</dd>
+                <dd>Exam Project</dd>
               </div>
               <div>
                 <dt>Year</dt>
-                <dd>2025</dd>
+                <dd>2026</dd>
               </div>
               <div>
                 <dt>Stack</dt>
                 <dd>
                   <div class="tag-row">
-                    <span class="chip">Bootstrap 5</span>
-                    <span class="chip">SCSS</span>
-                    <span class="chip">JavaScript</span>
-                    <span class="chip">Noroff Auction API</span>
+                    <span class="chip">React</span>
+                    <span class="chip">Vite</span>
+                    <span class="chip">Tailwind CSS</span>
+                    <span class="chip">Noroff Holidaze API</span>
                   </div>
                 </dd>
               </div>
